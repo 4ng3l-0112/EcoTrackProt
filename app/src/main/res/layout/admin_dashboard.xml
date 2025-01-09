@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".adminDashboard"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        tools:src="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="adminWasteRecords"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:text="Waste Records" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:onClick="adminResidentRecords"
+        android:text="Resident Records"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="adminCreateCommunityChallenge"
+        android:text="Create Community Challenge"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community Challenges"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:id="@+id/challengeBtn"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/challengeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Title" />
+
+        <TextView
+            android:id="@+id/challengeDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Description" />
+
+        <TextView
+            android:id="@+id/challengeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/challengeBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/challengeTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Title" />
+
+        <TextView
+            android:id="@+id/challengeDesc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Description" />
+
+        <TextView
+            android:id="@+id/challengeDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Date" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minor"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/challengeBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/challengeTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Title" />
+
+        <TextView
+            android:id="@+id/challengeDesc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Description" />
+
+        <TextView
+            android:id="@+id/challengeDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Date" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/challengeBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/challengeTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Title" />
+
+        <TextView
+            android:id="@+id/challengeDesc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Description" />
+
+        <TextView
+            android:id="@+id/challengeDate3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Date" />
+    </LinearLayout>
+</LinearLayout>
